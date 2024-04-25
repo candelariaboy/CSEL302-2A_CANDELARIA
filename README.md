@@ -20,21 +20,26 @@ This is example of Import libraries
 
 *****
 **Loading a dataset:** 
+
 This is example of Loading Datasets
 
 **- data = pd.read_csv("Datasets.csv")**
 *****
 **Handling missing values:** 
+
 This is example of Handling missing values
+
 **- print(data.isnull().sum())**
 *****
  **Encode Categorical Variables:** 
+ 
  This is example of Encode Categorical Variables
  
 **data_dummies = pd.get_dummies(data, drop_first=True)**
 **data_dummies['Monthly Revenue']=(data['data']>10).astype(int)**
 *****
 **Feature selection:** 
+
 This is example of Future Selection 
 
 **X = data_dummies.drop(['Monthly Revenue','Age'], axis=1)**
@@ -45,11 +50,13 @@ This is example of Future Selection
 **Descriptive statistics:** 
 
 This is example of Descriptive statistics
+
 **-print(X.describe())**
 *****
  **Visualizations:** 
 
  This is example of Visualizations
+ 
  **plt.figure(figsize=(8, 6))**
 
 **sns.histplot(data_dummies['Monthly Revenue'], bins=20, kde=True)**
