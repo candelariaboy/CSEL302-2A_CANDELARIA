@@ -160,6 +160,7 @@ This is example of Model Evaluation
 **print(conf_matrix)**
 *******
 
+**Summary**
 
-
+Data preprocessing involves transforming raw data into a clean, structured format suitable for analysis or modeling, addressing issues like missing values, outliers, and feature scaling. Exploratory Data Analysis (EDA) in Colab utilizes libraries such as Pandas, Matplotlib, and Seaborn to visually explore and summarize data distributions, correlations, and trends, aiding in pattern identification and hypothesis formulation. Implementing linear regression models in Colab involves utilizing libraries like Scikit-learn or TensorFlow to fit a linear relationship between predictor variables and a continuous target variable, allowing for predictions based on new data. Similarly, logistic regression models in Colab, also implemented with libraries like Scikit-learn or TensorFlow, focus on binary classification tasks, modeling the probability of a binary outcome based on predictor variables through the logistic function, facilitating tasks such as sentiment analysis or medical diagnosis.
 
